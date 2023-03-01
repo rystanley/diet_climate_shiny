@@ -15,6 +15,7 @@ library(shinyjs)
 library(leaflet)
 library(shinyWidgets)
 library(leafsync)
+library(leaflet.minicharts)
 
 
 

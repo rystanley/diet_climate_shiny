@@ -34,6 +34,7 @@ nafo <- read_sf("data/NAFOs/Divisions.shp",stringsAsFactors = T) %>%
 
 # upload MPAs
 mpa <- read_sf("data/MPAs/DFO_MPA_MPO_ZPM.shp", stringsAsFactors = T) %>% 
+  st_make_valid()%>%
   st_transform(crs = 4326) %>%
   st_crop(xmin=-80,xmax = -40, ymin = 40, ymax = 70)
 

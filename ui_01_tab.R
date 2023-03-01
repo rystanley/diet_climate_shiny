@@ -76,7 +76,7 @@ Tab1 <- function(dat){
            
            box(width=NULL, status="primary", style="padding-top:0px; padding-bottom:0px",
                
-               h6("Pedersen, E., Stanley, R. et. al. (2021), Placeholder title about projecting distributions of Canadian Fisheries, Place Holder Journal 10:1-25"))
+               h6("Zabihi-Seissan, S., Baker, K., Stanley, R.R.E, Tunny, T., et. al. (2021), Interactive effects of  predation  and climate on the distributions of marine shellfish in the Northwest Atlantic. In Press"))
     ),
     
     # make wider column for map
